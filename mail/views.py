@@ -9,7 +9,7 @@ def hello(rq):
 
     # Setting of account
     UserName = "s161075.sample@gmail.com"
-    PassName = "570161ss"
+    PassName = "Strikeonen7!"
 
     # Initialization
     mail = imaplib.IMAP4_SSL('imap.gmail.com', 993)
