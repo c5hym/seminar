@@ -1,0 +1,7 @@
+{% for mail in gmails %}
+  <ul style="margin-bottom: 10px;">
+    <li>差出人: {{ mail.address }}</li>
+    <li>件名: {{ mail.subject }}</li>
+    <li>本文: {{ mail.body }}</li>
+  </ul>
+{% endfor %}
